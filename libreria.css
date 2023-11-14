@@ -1,0 +1,156 @@
+@media only screen and (min-width: 600px) {
+    
+ body{
+  background-color: burlywood;
+ }  
+     
+ #menu li {
+ float: left;
+  list-style-type: none;
+  }
+  #menu li a {
+  display: inline;
+  padding: 5px;
+  }
+
+.flex-container {
+ max-width: 25%; 
+ background-color: rgb(66, 154, 243);
+ }
+ 
+.container{
+ display: flex;
+  flex-wrap: wrap;
+}
+  
+
+
+h1{
+  font-size: 40vw;
+  text-align: left;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+ font-size: 2vw;
+ display: flex;
+ max-width: 100%;
+ margin: 1em;
+ height: 100%;
+}
+
+img{
+  max-width: 50%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+
+footer{
+    font-family: serif;
+    background-color: rgb(238, 208, 168);
+}
+form{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+} 
+
+@media only screen and (max-width: 600px) {
+.flex-container{
+  background-color: dodgerblue;
+   width: 100%;
+  }
+
+.container{
+  display: flex;
+  flex-direction: column;     
+  }
+
+.flex-container img{
+  max-width: 45%;
+}
+
+body{
+  background-color: burlywood;
+ }  
+    
+
+footer{
+  font-family: serif;
+  background-color: burlywood;
+}
+form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: oblique;
+  }
+  
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+ }
+    
+   
+.fa:hover {
+ opacity: 0.7;
+ }
+    
+  
+    
+ 
+.fa-facebook {
+ background: #3B5998;
+ color: white;
+}
+    
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white; }
+ 
+img{
+    max-width: 50%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+}
+}
+
+h1{
+  font-size: 40vw;
+  text-align: left;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        
+}
+
+body{
+  background-color: rgb(240, 207, 175);
+ }
